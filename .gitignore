@@ -1,0 +1,2 @@
+# ignore all .js files in the root of the project
+./**/*.js

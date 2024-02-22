@@ -1,0 +1,12 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build",
+  "scripts": {
+    "test": "echo -n > run_.js ; bun run test.ts > run_.js ; bun run run_.js ",
+    "compile": "bun run test.ts > "
+  },
+  "author": "Mohamed Eltamawey",
+  "license": "ISC"
+}

@@ -5,7 +5,8 @@
   "main": "build",
   "scripts": {
     "test": "echo -n > run_.js ; bun run test.ts > run_.js ; bun run run_.js ",
-    "compile": "bun run test.ts > "
+    "compile": "bun run test.ts > ",
+    "test-parser": "bun run ast.ts test.me  > run_.js ; bun run run_.js "
   },
   "author": "Mohamed Eltamawey",
   "license": "ISC"
